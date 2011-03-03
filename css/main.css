@@ -5,3 +5,17 @@ body {
     line-height: 1.25;
 }
 
+.nav p{
+    font-size: 100px;
+    letter-spacing: -6px;
+}
+
+p{
+    color: #000000;
+    font-family: 'georgia','bitstream vera serif',serif;
+    font-size: 62px;
+    line-height: 1;
+    margin: 0 43% 0 0;
+    padding: 0 60px 0 0;
+    text-align: right;
+}
