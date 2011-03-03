@@ -3,6 +3,10 @@ body {
     font-family: helvetica,sans-serif;
     font-size: 100%;
     line-height: 1.25;
+    background-color: #fff;
+}
+body#content {
+  background: #fff url(../images/mangrove.gif) no-repeat fixed right 130px;
 }
 
 #content{
