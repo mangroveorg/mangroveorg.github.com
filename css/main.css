@@ -5,6 +5,29 @@ body {
     line-height: 1.25;
 }
 
+#content{
+    clear:both;
+    padding: 50px 0;
+}
+
+.nav{
+    padding: 25px 0 50px;
+}
+
+.nav pre{
+    background: none repeat scroll 0 0 transparent;
+    border-width: 0;
+    float: right;
+    padding: 5px 0 0;
+    width: 42%;
+}
+
+.nav a,
+.nav a:visited{
+    color: #444444;
+    text-decoration: none;
+}
+
 .nav p{
     font-size: 100px;
     letter-spacing: -6px;
