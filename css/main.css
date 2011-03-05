@@ -3,44 +3,31 @@ body {
     font-family: helvetica,sans-serif;
     font-size: 100%;
     line-height: 1.25;
-    background: #fff url(../images/mangrove.gif) no-repeat fixed right 130px;
+    background: #fff url(../images/mangrove.gif) no-repeat right 130px;
 }
 
 #container{
-    clear:both;
     padding: 50px 65px;
-}
-
-.nav pre{
-    background: none repeat scroll 0 0 transparent;
-    border-width: 0;
-    float: left;
-    padding: 5px 0 0;
-    width: 42%;
-    font-size: 36px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-left: 20px;
 }
 
 .nav a,
 .nav a:visited{
     color: #444444;
     text-decoration: none;
+    font-size: 36px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.nav ul{
+    list-style-type: none;
 }
 
 .project_name{
-    font-size: 100px;
-    letter-spacing: -6px;
-    float:left;
-}
-
-.project_name p{
     color: #000000;
     font-family: 'georgia','bitstream vera serif',serif;
-    font-size: 62px;
+    font-size: 7em;
     line-height: 1;
-    margin: 0 43% 0 0;
-    padding: 0 60px 0 0;
-    text-align: right;
+    letter-spacing: -3px;
+    margin-bottom: 2em;
 }
